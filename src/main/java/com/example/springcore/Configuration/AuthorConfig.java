@@ -7,6 +7,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class AuthorConfig {
 
+
     @Bean
     public Author authorConfig(){
         return new Author();
